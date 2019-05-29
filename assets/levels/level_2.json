@@ -1,0 +1,133 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [48, 9],
+		"start": [1, 7],
+		"goal": [44, 3, 2, 5]
+	},
+
+	"physics": {
+		"gravity": 1
+		,
+		"terminal_velocity": 48
+	},
+
+	"music": "assets/sounds/theme.ogg",
+	
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/space.png",
+		"image2": "assets/images/backgrounds/ship2.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[1, 8, "SpaceFloor"],
+			[2, 8, "SpaceFloor"],
+			[3, 8, "SpaceFloor"],
+			[0, 8, "SpaceFloor"],
+			[4, 8, "SpaceFloor"],
+			[5, 8, "SpaceFloor"],
+			[6, 8, "SpaceFloor"],
+			[7, 8, "SpaceFloor"],
+			[8, 8, "SpaceFloor"],
+			[9, 8, "SpaceFloor"],
+			[10, 8, "SpaceFloor"],
+			[11, 8, "SpaceFloor"],
+			[12, 8, "SpaceFloor"],
+			[13, 8, "SpaceFloor"],
+			[14, 8, "SpaceFloor"],
+			[15, 8, "SpaceFloor"],
+			[16, 8, "SpaceFloor"],
+			[17, 8, "SpaceFloor"],
+			[18, 8, "SpaceFloor"],
+			[19, 8, "SpaceFloor"],
+			[20, 8, "SpaceFloor"],
+			[21, 8, "SpaceFloor"],
+			[22, 8, "SpaceFloor"],
+			[23, 8, "SpaceFloor"],
+			[24, 8, "SpaceFloor"],
+			[25, 8, "SpaceFloor"],
+			[26, 8, "SpaceFloor"],
+			[27, 8, "SpaceFloor"],
+			[28, 8, "SpaceFloor"],
+			[29, 8, "SpaceFloor"],
+			[30, 8, "SpaceFloor"],
+			[31, 8, "SpaceFloor"],
+			[32, 8, "SpaceFloor"],
+			[33, 8, "SpaceFloor"],
+			[34, 8, "SpaceFloor"],
+			[35, 8, "SpaceFloor"],
+			[36, 8, "SpaceFloor"],
+			[37, 8, "SpaceFloor"],
+			[38, 8, "SpaceFloor"],
+			[39, 8, "SpaceFloor"],
+			[40, 8, "SpaceFloor"],
+			[41, 8, "SpaceFloor"],
+			[42, 8, "SpaceFloor"],
+			[43, 8, "SpaceFloor"],
+			[44, 8, "SpaceFloor"],
+			[45, 8, "SpaceFloor"],
+			[46, 8, "SpaceFloor"],
+			[47, 8, "SpaceFloor"],
+
+			[4, 3, "SpacePlatform"],
+			[5, 3, "SpacePlatform"],
+			[8, 5, "SpacePlatform"],
+			[9, 6, "SpacePlatform"],
+			[13, 2, "SpacePlatform"],
+
+			[14, 2, "SpacePlatform"],
+
+			[20, 5, "SpacePlatform"],
+			[20, 6, "SpacePlatform"],
+			[20, 7, "SpacePlatform"],
+			[20, 0, "SpacePlatform"],
+			[20, 1, "SpacePlatform"],
+
+			[24, 4, "SpacePlatform"],
+			[25, 4, "SpacePlatform"],
+			[32, 5, "SpacePlatform"],
+			[33, 5, "SpacePlatform"],
+			[34, 5, "SpacePlatform"],
+			[31, 2, "SpacePlatform"],
+
+			[38, 5, "SpacePlatform"],
+			[39, 5, "SpacePlatform"],
+			[40, 6, "SpacePlatform"]
+		]
+	},
+
+	"items": [
+		[9, 5, "Gem"],
+		[10, 2, "Gem"],
+		[20, 4, "Gem"],
+		[24, 3, "Gem"],
+		[29, 5, "Gem"],
+		[34, 3, "Gem"],
+		[31, 1, "Gem"],
+		[40, 5, "Gem"]
+	],
+
+	"enemies": [ 
+		[10, 8, "BasicEnemy"],
+		[23, 8, "BasicEnemy"],
+		[7, 2, "FlyEnemy"],
+		[16, 4, "FlyEnemy"],
+		[22, 1, "FlyEnemy"],
+		[36,  3, "FlyEnemy"],
+		[4, 2, "PlatformEnemy"],
+		[34, 4, "PlatformEnemy"],
+		[38, 2, "PlatformEnemy"]
+	]
+}

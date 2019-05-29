@@ -1,0 +1,132 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [48, 9],
+		"start": [1, 7],
+		"goal": [44, 3, 2, 5]
+	},
+
+	"physics": {
+		"gravity": 1.75
+		,
+		"terminal_velocity": 48
+	},
+
+	"music": "assets/sounds/theme.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/mars.png",
+		"image2": "assets/images/backgrounds/Hills_2red.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[1, 8, "MarsFloor"],
+			[2, 8, "MarsFloor"],
+			[3, 8, "MarsFloor"],
+			[0, 8, "MarsFloor"],
+			[4, 8, "MarsFloor"],
+			[5, 8, "MarsFloor"],
+			[6, 8, "MarsFloor"],
+			[7, 8, "MarsFloor"],
+			[8, 8, "MarsFloor"],
+			[9, 8, "MarsFloor"],
+			[10, 8, "MarsFloor"],
+			[11, 8, "MarsFloor"],
+			[12, 8, "MarsFloor"],
+			[13, 8, "MarsFloor"],
+			[14, 8, "MarsFloor"],
+			[15, 8, "MarsFloor"],
+			[16, 8, "MarsFloor"],
+			[17, 8, "MarsFloor"],
+			[18, 8, "MarsFloor"],
+			[19, 8, "MarsFloor"],
+			[20, 8, "MarsFloor"],
+			[21, 8, "MarsFloor"],
+			[22, 8, "MarsFloor"],
+			[23, 8, "MarsFloor"],
+			[24, 8, "MarsFloor"],
+			[25, 8, "MarsFloor"],
+			[26, 8, "MarsFloor"],
+			[27, 8, "MarsFloor"],
+			[28, 8, "MarsFloor"],
+			[29, 8, "MarsFloor"],
+			[30, 8, "MarsFloor"],
+			[31, 8, "MarsFloor"],
+			[32, 8, "MarsFloor"],
+			[33, 8, "MarsFloor"],
+			[34, 8, "MarsFloor"],
+			[35, 8, "MarsFloor"],
+			[36, 8, "MarsFloor"],
+			[37, 8, "MarsFloor"],
+			[38, 8, "MarsFloor"],
+			[39, 8, "MarsFloor"],
+			[40, 8, "MarsFloor"],
+			[41, 8, "MarsFloor"],
+			[42, 8, "MarsFloor"],
+			[43, 8, "MarsFloor"],
+			[44, 8, "MarsFloor"],
+			[45, 8, "MarsFloor"],
+			[46, 8, "MarsFloor"],
+			[47, 8, "MarsFloor"],
+
+			[4, 5, "MarsPlatform"],
+			[5, 6, "MarsPlatform"],
+			[8, 5, "MarsPlatform"],
+			[9, 5, "MarsPlatform"],
+			[10, 4, "MarsPlatform"],
+
+			[15, 5, "MarsPlatform"],
+
+			[18, 5, "MarsPlatform"],
+			[19, 6, "MarsPlatform"],
+			[20, 7, "MarsPlatform"],
+
+			[22, 6, "MarsPlatform"],
+			[23, 6, "MarsPlatform"],
+			[24, 6, "MarsPlatform"],
+			[30, 5, "MarsPlatform"],
+			[31, 5, "MarsPlatform"],
+
+			[38, 4, "MarsPlatform"],
+			[39, 4, "MarsPlatform"],
+			[41, 5, "MarsPlatform"]
+		],
+
+		"foreground": [
+			[12, 7, "Plant"],
+			[19, 7, "Plant"],
+			[34, 7, "Plant"]
+		]
+	},
+
+	"items": [
+		[10, 2, "Gem"],
+		[20, 4, "Gem"],
+		[29, 5, "Gem"],
+		[34, 3, "Gem"]
+	],
+
+	"enemies": [ 
+		[10, 7, "BasicEnemy"],
+		[5, 7, "BasicEnemy"],
+		[23, 7, "BasicEnemy"],
+		[3, 4, "FlyEnemy"],
+		[14, 2, "FlyEnemy"],
+		[20, 1, "FlyEnemy"],
+		[32, 1, "FlyEnemy"],
+		[8, 4, "PlatformEnemy"],
+		[34, 4, "PlatformEnemy"],
+		[38, 2, "PlatformEnemy"]
+	]
+}
