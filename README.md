@@ -10,8 +10,8 @@ Get all 4 flags and Pedro will become King of the Galaxy!
 
 ### Controls
 
-Arrow Keys to move
-SPACE to Jump
+Arrow Keys to move/
+SPACE to Jump/
 SPACE to start the game and to restart
 
 
