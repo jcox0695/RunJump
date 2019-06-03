@@ -32,4 +32,4 @@ At the end of the game, a message will be displayed either 'you win' or 'you los
 The ultimate goal is to complete all 4 levels so help Pedro stay safe and reach the flags!
 
 ### Play RunJump!
-[I'm a relative reference to a repository file] (https://github.com/jcox0695/RunJump/releases)
+(https://github.com/jcox0695/RunJump/releases)
