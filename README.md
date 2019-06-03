@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## RunJump
 
-You can use the [editor on GitHub](https://github.com/jcox0695/RunJump/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Travel different worlds with Pedro and help him reach the flags! Dodge the enemies but look out! Some enemies stay on platforms and some can fly! Get all 4 flags and Pedro will become King of the Galaxy! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
