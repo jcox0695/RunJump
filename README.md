@@ -1,7 +1,7 @@
 ## RunJump
 
 Travel different worlds with Pedro and help him reach the flags!
-Dodge the enemies but look out! Some enemies stay on platforms and some can fly! 
+Dodge the enemies but look out, some enemies stay on platforms and some can fly! 
 Pay attention to gravity on the different worlds because some will make you jump and float higher than others! 
 Get all 4 flags and Pedro will become King of the Galaxy! 
 
