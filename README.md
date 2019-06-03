@@ -6,6 +6,7 @@ Pay attention to gravity on the different worlds because some will make you jump
 Get all 4 flags and Pedro will become King of the Galaxy! 
 
 ![alt text](https://github.com/jcox0695/RunJump/blob/master/StartScreen.jpg)
+![alt text](https://github.com/jcox0695/RunJump/blob/master/GamePlay.jpg)
 ### Controls
 
 Arrow Keys to move
